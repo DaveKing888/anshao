@@ -1,0 +1,22 @@
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<%= console.log(data) %>
+		<% _.each(data,function(el,index){ %>
+			<div class="swiper-slide">
+				<a href="<%= "fdasf" %>">
+					<div class="picBox"><img src="<%= el.imageSrc %>" alt="" width="100%" heigth="150"><%= index %></div>
+					<div class="tpl_star">
+				     <ul>
+				        <li class="icon-star-empty"></li>
+				        <li class="icon-star-empty "></li>
+				        <li class="icon-star-empty"></li>
+				        <li class="icon-star-empty"></li>
+				        <li class="icon-star-empty"></li>
+				     </ul>
+				     <div class="score">10分</div>
+			 		</div>
+				</a>
+			</div>
+		<% })  %>
+	</div>
+</div>

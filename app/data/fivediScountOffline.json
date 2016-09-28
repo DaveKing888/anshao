@@ -1,0 +1,99 @@
+{
+    "id": 1472637209646,
+    "memo": "操作成功",
+    "operationType": "creditCardActivity",
+    "result": {
+        "hasmore": 1,
+        "offset": 5,
+        "shopList": [{
+            "acts": [{
+                "actId": "57500087",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安信用卡漫猫咖啡经典咖啡免费升大杯",
+                "category": ["美食"],
+                "discts": ["优惠"]
+            }],
+            "distance": 492.0081936211271,
+            "logo": "https://qnpic.billbear.cn/images/amap/575fe78f-logo140?imageMogr2/crop/!200x200a0a0/thumbnail/!100p",
+            "score": 0.0,
+            "shopId": "B0FFG3BNQD",
+            "shopName": "漫猫咖啡(绿地店)"
+        }, {
+            "acts": [{
+                "actId": "575002a5",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安信用卡大匠火锅刷卡消费享95折",
+                "category": ["美食"],
+                "discts": ["折扣"]
+            }],
+            "distance": 815.3241456277983,
+            "logo": "",
+            "score": 0.0,
+            "shopId": "B0FFFFTG57",
+            "shopName": "大匠火锅(徐家汇店)"
+        }, {
+            "acts": [{
+                "actId": "57568210",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安卡至早安巴黎消费满50立减25",
+                "category": ["美食"],
+                "discts": ["折扣"]
+            }],
+            "distance": 1139.0181707887168,
+            "logo": "",
+            "score": 0.0,
+            "shopId": "B00156YOBY",
+            "shopName": "早安巴黎(永新坊店)"
+        }, {
+            "acts": [{
+                "actId": "ACT-307-WWW-0064",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安高端卡上海中石油加油享88折",
+                "discts": ["折扣"]
+            }, {
+                "actId": "859e7f2f00ce",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安高端卡新户可享上海中石化加油88折",
+                "discts": ["折扣"]
+            }],
+            "distance": 1462.2214748913163,
+            "logo": "https://qnpic.billbear.cn/images/amap/575cbb90-logo140?imageMogr2/crop/!196x196a0a0/thumbnail/!102p",
+            "score": 0.0,
+            "shopId": "B00155HO1U",
+            "shopName": "中国石化加油站(龙华西路)"
+        }, {
+            "acts": [{
+                "actId": "ACT-307-WWW-0064",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安高端卡上海中石油加油享88折",
+                "discts": ["折扣"]
+            }, {
+                "actId": "859e7f2f00ce",
+                "bankCode": "SPABANK",
+                "bankLogo": "https://qnpic.billbear.cn/images/icon/pab-pingan.png",
+                "bankName": "平安银行",
+                "caption": "平安高端卡新户可享上海中石化加油88折",
+                "discts": ["折扣"]
+            }],
+            "distance": 1555.4645504878645,
+            "logo": "https://qnpic.billbear.cn/images/amap/575cbb90-logo140?imageMogr2/crop/!196x196a0a0/thumbnail/!102p",
+            "score": 0.0,
+            "shopId": "B001517DEC",
+            "shopName": "中国石化宛平路第2加油站"
+        }],
+        "total": 941
+    },
+    "resultStatus": 1000
+}

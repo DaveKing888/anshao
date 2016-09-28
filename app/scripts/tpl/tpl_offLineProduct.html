@@ -1,0 +1,17 @@
+<a href='<%= href %>'>
+    <div class="p_img">
+      <img src="<%= shopLogo %>">
+    </div>
+    <div class="p_txt">
+      <div class="p_name"><%= shopName %></div>
+      <div class="p_label"><%= category[0]  %></div>
+      <% _.each(acts,function(data){ %>
+        <div class="p_other">
+          <span class="bankMark"><%= data.bankName %></span>
+          <span class="actPng clearfix" style="background-image:url(<%= data.discts %>)"></span>
+          <span class="actName"><%= data.caption %></span>
+        </div>
+      <% })%>
+      <span class="dist"><%= distance %></span>
+    </div>
+</a>

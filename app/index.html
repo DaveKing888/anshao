@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><!-- 手机 -->
+
+      <script type="text/javascript">
+      var title ='';
+      if(location.hash.indexOf('#tuiwuzhe')!=-1) title = '<title>五折天</title>';
+      else if(location.hash.indexOf('#zhidemai')!=-1) title = '<title>值得买</title>';
+      else if(location.hash.indexOf('#chihuo')!=-1) title = '<title>吃货</title>';
+      else if(location.hash.indexOf('#yuepiao')!=-1) title = '<title>约影票</title>';
+      else{}
+      document.write(title);
+      </script>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      
+      <link rel="stylesheet" href="styles/main.css">
+      <script type="text/javascript">
+      updataHtml();
+      function updataHtml(){
+         var w = document.documentElement.offsetWidth;
+         document.documentElement.style.fontSize=w/3.2+'px';
+         }
+         window.onresize=function(){
+         updataHtml();
+         }
+      </script>
+   </head>
+   <body>
+      <div id='container'></div>
+      <div id='tpl_loading' class="tpl_loading hide "></div>  
+      <!-- build:js scripts/main.js -->
+      <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
+      <!-- endbuild -->
+   </body>
+</html>

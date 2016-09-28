@@ -1,0 +1,35 @@
+.tpl_tab{
+	border: 1px solid #DBEFFF;
+	overflow: hidden;
+	height: 42px;
+	border-radius: 21px;
+
+
+
+	
+}
+.tpl_tab>li{
+	
+	float: left;
+	text-align: center;
+	width:50%;
+	line-height: 42px;
+	font-size: 16px;
+	border-left: 1px solid #DBEFFF;
+	color: #666666;
+
+}
+.tpl_tab>li.active{
+	color: #568fd4;
+	background-color: #DBEFFF;
+}
+.tpl_tab>li:active{
+	color: #568fd4;
+	background-color: #DBEFFF;
+}
+.tpl_tab>li:first-child{
+	border-left: 0;
+}
+.tpl_tab>li.active{
+
+}

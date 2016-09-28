@@ -1,0 +1,52 @@
+{
+	"id": 1472180879461,
+    "memo": "操作成功",
+    "operationType": "anshaoBanner",
+    "result": {
+    	"banner":[
+    		{	
+    			"image":"http://img5.imgtn.bdimg.com/it/u=3586233367,3171193232&fm=11&gp=0.jpg",
+    			"goType":"1",
+    			"link":"http://img5.imgtn.bdimg.com/it/u=3586233367,3171193232&fm=11&gp=0.jpg"	
+    		},{
+    			"image":"http://mgw.pingan.com.cn/res/h5/emall/uniongold@3x.png",
+    			"goType":"",
+    			"link":"http://mgw.pingan.com.cn/res/h5/emall/uniongold@3x.png"		
+    		}
+    	],
+    	"film":[
+    		{
+	    		"imageUrl":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3252217089,3496906259&fm=58",
+	    		"score":"10",
+	    		"goType":"",
+	    		"link":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3252217089,3496906259&fm=58"
+    		},
+    		{
+	    		"imageUrl":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3881450343,295036046&fm=58",
+	    		"score":"7",
+	    		"goType":"",
+	    		"link":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3881450343,295036046&fm=58"
+    		},
+    		{
+	    		"imageUrl":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3252217089,3496906259&fm=58",
+	    		"score":"9",
+	    		"goType":"",
+	    		"link":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3881450343,295036046&fm=58"
+    		},
+    		{
+	    		"imageUrl":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3828594252,1358985497&fm=58",
+	    		"score":"0",
+	    		"goType":"",
+	    		"link":"http://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3881450343,295036046&fm=58"
+    		},{
+	    		"imageUrl":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3828594252,1358985497&fm=58",
+	    		"score":"3",
+	    		"goType":"",
+	    		"link":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3828594252,1358985497&fm=58"
+    		}
+
+    	]
+    },
+    "resultStatus":1000
+}
+

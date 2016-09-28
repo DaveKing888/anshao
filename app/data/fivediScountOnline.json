@@ -1,0 +1,185 @@
+{
+    "id": 1473418815441,
+    "memo": "请求成功",
+    "operationType": "fondOnlineActive",
+    "result": {
+        "actList": [
+            {
+                "actId": "HB-105-005-001",
+                "banks": [
+                    "建设银行"
+                ],
+                "caption": "建行 VISA /万事达卡海淘十大名店最高返现 10%",
+                "category": [
+                    "网购"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2016.12.31",
+                "images": [
+                    "https://qnpic.billbear.cn/images/act/HB-105-005-001.png"
+                ]
+            },
+            {
+                "actId": "85c1249afc3d",
+                "banks": [
+                    "招商银行"
+                ],
+                "caption": "招行高端卡 Hertz 境外租车三重好礼",
+                "category": [
+                    "其他",
+                    "境外"
+                ],
+                "discts": [
+                    "优惠"
+                ],
+                "edate": "截止至2017.03.31",
+                "images": [
+                    "https://qnpic.billbear.cn/images/act/e46f2bf4-8187-40ba-82cc-7aa26b3154c3?imageMogr2/crop/!660x352a0a0/thumbnail/!114p"
+                ]
+            },
+            {
+                "actId": "57bc62300926a8156ed8d874",
+                "banks": [
+                    "招商银行"
+                ],
+                "caption": "招行海外知名电商返现 5%",
+                "category": [
+                    "网购"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2017.03.31",
+                "images": [
+                    "https://qnpic.billbear.cn/FgjIpDYrwY74UgwXx-zPxfW6mXCQ?imageMogr2/crop/!658x351a1a5/thumbnail/!114p"
+                ]
+            },
+            {
+                "actId": "57c653b70926a8094e0ba68a",
+                "banks": [
+                    "银联"
+                ],
+                "caption": "银联云闪付满 20 享随机立减",
+                "category": [
+                    "购物",
+                    "电影"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2016.11.30",
+                "images": [
+                    "https://qnpic.billbear.cn/FhFr1a_-PmNNYo4M6TCOVwhoJZL8?imageMogr2/crop/!750x400a0a0/thumbnail/!100p"
+                ]
+            },
+            {
+                "actId": "57ca2b850926a80c90326824",
+                "banks": [
+                    "农业银行"
+                ],
+                "caption": "农行 VISA 卡换取乐天折扣手册享最低 72 折",
+                "category": [
+                    "境外"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2017.02.14",
+                "images": [
+                    "https://qnpic.billbear.cn/Ftitzg0Lkp_9rxkQmgP8nSGhBLEH?imageMogr2/crop/!750x400a0a0/thumbnail/!100p"
+                ]
+            },
+            {
+                "actId": "57bab8850926a810c8be99f9",
+                "banks": [
+                    "运通"
+                ],
+                "caption": "中信运通卡韩国消费 30 美元可获 10% 返现",
+                "category": [
+                    "境外"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2016.11.30",
+                "images": [
+                    "https://qnpic.billbear.cn/FvCzDoLGZrgsJ_wjDN8-Cb9_ds_U?imageMogr2/crop/!750x400a0a0/thumbnail/!100p"
+                ]
+            },
+            {
+                "actId": "57675809",
+                "banks": [
+                    "兴业银行"
+                ],
+                "caption": "兴业卡常购超市享88折",
+                "category": [
+                    "购物"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2016.12.31",
+                "images": [
+                    "https://qnpic.billbear.cn/images/act/57675809?imageMogr2/crop/!622x332a0a20.994308471679688/thumbnail/!121p"
+                ]
+            },
+            {
+                "actId": "57ce2f660926a81dec2903a8",
+                "banks": [
+                    "银联"
+                ],
+                "caption": "平安每周日享随机立减最高免单",
+                "category": [
+                    "购物"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2017.02.28, 每周 日",
+                "images": [
+                    "https://qnpic.billbear.cn/FkE2caXSRcifEehVMBQBSMnxF9t6?imageMogr2/crop/!750x400a0a0/thumbnail/!100p"
+                ]
+            },
+            {
+                "actId": "ACT-305-WX-0096",
+                "banks": [
+                    "民生银行"
+                ],
+                "caption": "民生卡超市云闪付满10元可随机抽奖",
+                "category": [
+                    "购物"
+                ],
+                "discts": [
+                    "优惠"
+                ],
+                "edate": "截止至2016.11.30",
+                "images": [
+                    "https://qnpic.billbear.cn/images/act/default@2x.jpg"
+                ]
+            },
+            {
+                "actId": "57ca28f80926a80c90326814",
+                "banks": [
+                    "农业银行"
+                ],
+                "caption": "农行 VISA 卡韩国乐天免税店 5-15% 优惠",
+                "category": [
+                    "境外"
+                ],
+                "discts": [
+                    "折扣"
+                ],
+                "edate": "截止至2016.11.30",
+                "images": [
+                    "https://qnpic.billbear.cn/Ftitzg0Lkp_9rxkQmgP8nSGhBLEH?imageMogr2/crop/!750x400a0a0/thumbnail/!100p"
+                ]
+            }
+        ],
+        "hasmore": true,
+        "pageNo": 0,
+        "total": 200
+    },
+    "resultStatus": 1000
+}

@@ -1,0 +1,110 @@
+.tpl_List li{border-bottom: 1px solid #eff5fc;}
+.tpl_List li>a{padding: 10px 0 14px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: box;
+}
+.tpl_List li .p_img{
+	width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+
+} 
+.tpl_List li .p_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.tpl_List li .p_txt{
+    width: 100%;
+    overflow: hidden;
+	-ms-flex: 1;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    box-flex: 1;
+    position: relative;
+}
+.tpl_List li .p_name{
+	font-size: 16px;
+    color: #333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tpl_List li .p_label{
+	font-size: 14px;
+    color: #4a90e2;
+    margin: 7px 0 10px;
+}
+
+.tpl_List li .p_other{
+	line-height: 24px;
+    overflow: hidden;
+     margin-top:12px;
+}
+.tpl_List li .p_other:first-child{
+    margin-top:0;
+}
+.tpl_List li .bankMark{
+	display: inline-block;
+    width: 45px;
+    vertical-align: top;
+    height: 24px;
+    line-height: 22px;
+    border-radius: 12px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.tpl_List li .actMark{
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 22px;
+    color: #f5a623;
+    border-radius: 50%;
+    border: 1px solid #f5a623;
+    overflow: hidden;
+}
+.tpl_List li .actPng{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 22px;
+    color: #f5a623;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-background-size: 24px;
+    background-size: 24px;
+}
+.tpl_List li .actName{
+	display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 1.09rem;
+}
+.tpl_List li .dist{
+	position: absolute;
+    top: 27px;
+    right: 10px;
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+
+
+

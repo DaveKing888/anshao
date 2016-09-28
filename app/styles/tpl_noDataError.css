@@ -1,0 +1,26 @@
+
+.tpl_noDataError{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.tpl_noDataError .errorPic{
+	display: block;
+	margin-top: 70px;
+	margin: 0 auto;
+}
+.tpl_noDataError .txt{
+	display:block; 
+	color: #999999;
+	font-size: 16px;
+	margin-top: 12px;
+
+}
+.tpl_noDataError .link_youhui{
+	display: inline-block;
+	color: #3399FF;
+	font-size: 16px;
+	line-height: 24px;
+
+}

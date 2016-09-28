@@ -1,0 +1,16 @@
+<a href='<%= href %>'>
+    <div class="p_img">
+      <img src="<%= images %>">
+    </div>
+    <div class="p_txt">
+      <div class="p_name"><%= caption %></div>
+      <div class="p_label <%= category=="广告"? "g_place":""%>"><%= category %></div>
+      <div class="p_other">
+      <% if(bankName!=""){ %>
+          <span class="bankMark"><%= bankName %></span>
+      <%}%>
+        <span class="actPng clearfix" style="background-image:url(<%= discts %>);"></span>
+      </div>
+      <span class="dist"></span>
+    </div>
+</a>
