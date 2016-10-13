@@ -348,7 +348,11 @@ module.exports = function (grunt) {
         // 'rev',
         'usemin'
     ]);
-
+    grunt.registerTask('buildCss',[
+        'copy:styles',
+        'autoprefixer',
+        'cssmin'
+    ]);
     grunt.registerTask('default', [
         'jshint',
         'test',

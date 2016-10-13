@@ -42,14 +42,12 @@ define([
                         'operationType':interName,
                         'requestData':JSON.stringify(reqData)
                     }
-                    console.log('入参',body);
                     window.Router.showLoading();
                     $.ajax({
                         url: options.url ? options.url :"",
                         type:(function(){return location.href.indexOf("0.0.0.0")>-1? "GET":'POST'})(),
                         dataType: 'json',
                         data: body? body:"",
-                        timeout:8000,
                         success:function(data){
                             window.Router.hideLoading();
                             options.success(data);
@@ -73,8 +71,7 @@ define([
                  /*埋点-事件埋点*/
                 $(document).on('click', '[data-point]', function(event) {
                     var data = $(this).data('point');
-                    console.log(data)
-                    YztApp.ubt(data.event_id || '', data.label || '', data.param || {});
+                    YztApp.ubt(data.eventid || '', data.label || '', data.param || {});
                 });
                 
 
@@ -140,7 +137,6 @@ define([
                             'requestData': JSON.stringify(reqData)
                         },
                         success: function(data) {
-                            console.log(data)
                             if (data.resultStatus == 1000) {
                                 AppW.is_login = true;
 

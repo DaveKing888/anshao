@@ -141,6 +141,7 @@ define([
         getGuessLikeData: function() {
             var thisView = this;
             $("#error").html("");
+            $("body").removeClass('bgColor');
             if ( thisView.C_onLineList.length > "0" && thisView.C_onLineList.length == thisView.C_onLineList.total) {
                 Router.toast("已加载全部数据");
                 return;
@@ -164,6 +165,7 @@ define([
                         if (data.resultStatus == 1000) {
                             if (data.result.total == 0) {
                                 $("#error").html(thisView.errorView.el);
+                                $("body").addClass('bgColor');
                                 return;
                             }
                             if (typeof data.result.actList != "undefined") {
@@ -179,7 +181,7 @@ define([
                                    model.discts =  Backbone.setMapPng((el.discts? el.discts[0]:""));
                                    model.images = el.images[0];
                                    model.caption = el.caption;
-                                   model.point = {"eventid":"约影票","label":"约影票首页_点击_优惠活动","param":{"活动ID":el.actId,"优惠分类":model.category}};
+                                   model.point = JSON.stringify({"eventid":"约影票","label":"约影票首页_点击_优惠活动","param":{"活动ID":el.actId,"优惠分类":model.category}});
                                    model.href = "patoa://pingan.com/discount/detail?url=" + encodeURIComponent(AppW.actUrl + el.actId);
                                    models.push(model);
 
@@ -209,6 +211,7 @@ define([
         getCircumData: function() {
             var thisView = this;
             $("#error").html("");
+            $("body").removeClass('bgColor');
             var offset = thisView.C_OffLineList.length;
             if ( thisView.C_OffLineList.length > "0" && thisView.C_OffLineList.length == thisView.C_OffLineList.total) {
                 Router.toast("已加载全部数据");
@@ -238,6 +241,7 @@ define([
                             if (data.resultStatus == 1000 && typeof data.result.shopList != "undefined") {
                                 if (data.result.total == 0) {
                                     $("#error").html(thisView.errorView.el);
+                                    $("body").addClass('bgColor');
                                     return;
                                 }
                                 var models = [];
@@ -263,8 +267,9 @@ define([
                                         acts.push(actObj);
                                     })
                                     model.acts = acts.slice();
-                                    model.point = {"eventid":"约影票","label":"约影票首页_点击_优惠商户","param":{"商户ID":el.shopId}};
+                                    model.point = JSON.stringify({"eventid":"约影票","label":"约影票首页_点击_优惠商户","param":{"商户ID":el.shopId}});
                                     models.push(model);
+
                                 });
                                
                                 thisView.C_OffLineList.total  = data.result.total;
@@ -288,6 +293,7 @@ define([
 
         },//线上
         tab1: function(e) {
+            $("body").removeClass('bgColor');
            if(this.tab_index == "1"){
                 return ;
             }
@@ -303,6 +309,7 @@ define([
             }
         },//线下
         tab2: function(e) {
+            $("body").removeClass('bgColor');
              if(this.tab_index == "2"){
                 return ;
             }

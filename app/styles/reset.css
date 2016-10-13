@@ -12,10 +12,10 @@ body, input, button, textarea, select { font-size: 14px; font-family: "Microsoft
 /* 或 表单类的字体颜色和body一样 */
 button { cursor: pointer; border: 0; }
 em, b, cite { font-style: normal; font-weight: normal; }
-html { -webkit-tap-highlight-color: transparent; }
+html { -webkit-tap-highlight-color: transparent; height: 100%;}
 
 /*去除点击页面中元素时出现的阴影*/
-body { line-height: 1.17; -webkit-text-size-adjust: none; -webkit-touch-callout: none; -webkit-user-select: none; }
+body { min-height:100%;line-height: 1.17; -webkit-text-size-adjust: none; -webkit-touch-callout: none; -webkit-user-select: none; }
 a { color: #2c2c2c; text-decoration: none; }
 a:link { text-decoration: none; }
 :focus { outline: none; }
@@ -42,7 +42,9 @@ body{transition: height 2s;}
 .g_place{
 	visibility: hidden;
 }
-
+.bgColor{
+	background-color: #f9f9f9;
+}
 .txt_loading{
 	font-size: 14px;
 	text-align: center;

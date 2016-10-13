@@ -1,9 +1,11 @@
-.tpl_List li{border-bottom: 1px solid #eff5fc;}
-.tpl_List li>a{padding: 10px 0 14px;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: -webkit-flex;
+.tpl_List li{
+    border-bottom: 1px solid #eff5fc;
+    background-color: #fff;
+}
+.tpl_List li>a{
     display: box;
+    display: -webkit-box;
+    padding: 24px 28px 28px 0px;
 }
 .tpl_List li .p_img{
 	width: 70px;
@@ -11,7 +13,6 @@
     margin-right: 20px;
     margin-left: 20px;
     overflow: hidden;
-
 } 
 .tpl_List li .p_img img{
     width: 100%;
@@ -23,7 +24,6 @@
     overflow: hidden;
 	-ms-flex: 1;
     -webkit-box-flex: 1;
-    -webkit-flex: 1;
     box-flex: 1;
     position: relative;
 }
@@ -33,14 +33,16 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    
 }
 .tpl_List li .p_label{
 	font-size: 14px;
     color: #4a90e2;
-    margin: 7px 0 10px;
+    margin: 8px 0 14px;
 }
 
 .tpl_List li .p_other{
+    display: box;
 	line-height: 24px;
     overflow: hidden;
      margin-top:12px;
@@ -49,18 +51,20 @@
     margin-top:0;
 }
 .tpl_List li .bankMark{
-	display: inline-block;
-    width: 45px;
+	display: block;
+    width: 60px;
     vertical-align: top;
-    height: 24px;
-    line-height: 22px;
-    border-radius: 12px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 14px;
     border: 1px solid #999999;
     text-align: center;
+    color: #999999;
+    font-size: 16px;
 }
 
 .tpl_List li .actMark{
-	display: inline-block;
+	display:block;
     vertical-align: top;
     margin-left: 10px;
     margin-right: 12px;
@@ -75,32 +79,33 @@
     overflow: hidden;
 }
 .tpl_List li .actPng{
-    display: inline-block;
+    display:block;
     vertical-align: top;
-    margin-left: 10px;
+    margin-left: 12px;
     margin-right: 12px;
-    width: 24px;
-    height: 24px;
-    vertical-align: top;
-    text-align: center;
-    line-height: 22px;
-    color: #f5a623;
+    margin-top: 1px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     overflow: hidden;
-    -webkit-background-size: 24px;
-    background-size: 24px;
+    -webkit-background-size: 28px;
+    background-size: 28px;
+    font-size: 14px;
 }
 .tpl_List li .actName{
 	display: inline-block;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    width: 1.09rem;
+   box-flex: 1;
+   width: 100%;
+    font-size: 14px;
+    line-height: 30px;
 }
 .tpl_List li .dist{
 	position: absolute;
     top: 27px;
-    right: 10px;
+    right: 0px;
     font-size: 14px;
     color: #9B9B9B;
 }

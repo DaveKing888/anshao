@@ -117,6 +117,7 @@ define([
         getCircumData: function() {
             var thisView = this;
             $("#error").html("");
+            $("body").removeClass("bgColor");
             thisView.C_OffLineList.loading=true;
             if ( thisView.C_OffLineList.hasmore=="0") {
                     Router.toast("已加载全部数据");
@@ -147,6 +148,7 @@ define([
                             if (data.resultStatus == 1000 && typeof data.result.shopList != "undefined") {
                                 if (data.result.total == 0) {
                                     $("#error").html(thisView.errorView.el);
+                                    $("body").addClass("bgColor");
                                     return;
                                 }
                                 var models = [];
@@ -172,7 +174,7 @@ define([
                                         acts.push(actObj);
                                     })
                                     model.acts = acts.slice();
-                                    model.point = {"eventid":"吃货","label":"吃货首页_点击_优惠商户","param":{"商户ID":el.shopId}};
+                                    model.point = JSON.stringify({"eventid":"吃货","label":"吃货首页_点击_优惠商户","param":{"商户ID":el.shopId}});
                                     models.push(model);
                                 });
                                 thisView.C_OffLineList.hasmore  = data.result.hasmore;
