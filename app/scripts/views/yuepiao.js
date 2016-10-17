@@ -106,7 +106,6 @@ define([
             Backbone.gp_ajax('anshaoBanner', reqData, {
                 url: interface.anshaoBanner,
                 success: function(data) {
-                    console.log("banner", data);
                     if (data.resultStatus == 1000) {
                         if (typeof data.result.banner != 'undefined' && data.result.banner.length > 0) {
                             var ModelData = [],
@@ -161,7 +160,6 @@ define([
                 Backbone.gp_ajax('fondOnlineActive', reqData, {
                     url: interface.fondOnlineActive,
                     success: function(data) {
-                        console.log("猜你喜欢（线上）", data);
                         if (data.resultStatus == 1000) {
                             if (data.result.total == 0) {
                                 $("#error").html(thisView.errorView.el);
@@ -237,7 +235,6 @@ define([
                     Backbone.gp_ajax('anshaoFavorable', reqData, {
                         url: interface.anshaoFavorable,
                         success: function(data) {
-                            console.log("周边影院（线下）", data);
                             if (data.resultStatus == 1000 && typeof data.result.shopList != "undefined") {
                                 if (data.result.total == 0) {
                                     $("#error").html(thisView.errorView.el);

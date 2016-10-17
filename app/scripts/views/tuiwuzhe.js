@@ -108,7 +108,6 @@ define([
             Backbone.gp_ajax('anshaoBanner', reqData, {
                 url: interface.anshaoBanner,
                 success: function(data) {
-                    console.log("推五折-banner", data);
                     if (data.resultStatus == 1000) {
                         if (typeof data.result.banner != 'undefined' && data.result.banner.length > 0) {
                             var ModelData = [],
@@ -161,7 +160,6 @@ define([
                 Backbone.gp_ajax('fivediScountOnline', reqData, {
                     url: interface.fivediScountOnline,
                     success: function(data) {
-                        console.log("推五折-小编精选", data);
                         if (data.resultStatus == 1000) {
                             if (data.result.total == 0) {
                                 $("#error").html(thisView.errorView.el);
@@ -234,7 +232,6 @@ define([
                     Backbone.gp_ajax('fivediScountOffline', reqData, {
                         url: interface.fivediScountOffline,
                         success: function(data) {
-                            console.log("推五折-周边半价", data);
                             if (data.resultStatus == 1000 && typeof data.result.shopList != "undefined") {
                                 if (data.result.total == 0) {
                                     $("#error").html(thisView.errorView.el);
@@ -253,7 +250,7 @@ define([
                                     model.acts = [];
                                     model.category = [];
                                     model.href = "patoa://pingan.com/discount/detail?url=" + encodeURIComponent(AppW.shopUrl + el.shopId );
-                                    model.point = JSON.stringify({"eventid":"五折天","label":"五折天首页_点击_优惠商户","param":{"活动ID":el.shopId}});
+                                    model.point = JSON.stringify({"eventid":"五折天","label":"五折天首页_点击_优惠商户","param":{"商户ID":el.shopId}});
                                     _.each(el.acts,function(_el){
                                         var actObj = {};
                                         actObj.bankName = _el.bankName.substr(0,2);

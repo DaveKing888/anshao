@@ -79,7 +79,7 @@ define([
             // 不是五折我不推
             tuiwuzhe: function() {
                 this.setNavTitle({title:"五折天"})
-                // YztApp.ubt('申请信用卡', '申请信用卡_打开_选择卡页',{});
+                YztApp.ubt('安少头条', '五折天',{});
                 require(["views/tuiwuzhe"],function(V_tuiwuzhe) {
                    
                     if(this.page){this.page.remove()}
@@ -91,7 +91,8 @@ define([
             },
             // 一起约“piao”吧
             yuepiao:function() {
-                this.setNavTitle({title:"约影票"})
+                this.setNavTitle({title:"约影票"});
+                YztApp.ubt('安少头条', '约影票',{});
                 require(["views/yuepiao"],function(V_yuepiao) {
                     if(this.page){this.page.remove()}
                      this.page  = new V_yuepiao();
@@ -99,7 +100,8 @@ define([
             },
             // 什么值得买
             zhidemai:function () {
-                this.setNavTitle({title:"值得买"})
+                this.setNavTitle({title:"值得买"});
+                YztApp.ubt('安少头条', '值得买',{});
                 require(["views/zhidemai"],function(V_zhidemai) {
                     
                     if(this.page){this.page.remove()}
@@ -110,7 +112,8 @@ define([
             },
             // 一个称职的吃货
             chihuo:function() {
-               this.setNavTitle({title:"吃货"})
+               this.setNavTitle({title:"吃货"});
+               YztApp.ubt('安少头条', '吃货',{});
                 require(["views/chihuo"],function(V_chihuo) {
                     if(this.page){this.page.remove()}
                      this.page  = new V_chihuo();

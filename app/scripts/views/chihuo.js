@@ -79,7 +79,6 @@ define([
             Backbone.gp_ajax('anshaoBanner', reqData, {
                 url: interface.anshaoBanner,
                 success: function(data) {
-                    console.log("吃货-banner", data);
                     if (data.resultStatus == 1000) {
                         if (typeof data.result.banner != 'undefined' && data.result.banner.length > 0) {
                             var ModelData = [],
@@ -144,7 +143,6 @@ define([
                     Backbone.gp_ajax('anshaoFavorable', reqData, {
                         url: interface.anshaoFavorable,
                         success: function(data) {
-                            console.log("周边优选（线下）", data);
                             if (data.resultStatus == 1000 && typeof data.result.shopList != "undefined") {
                                 if (data.result.total == 0) {
                                     $("#error").html(thisView.errorView.el);
@@ -190,7 +188,6 @@ define([
                             Router.toast(textStatus);
                         },
                         complete:function(){
-                            console.log(arguments)
                             thisView.C_OffLineList.loading=false;
                         }
                     })
