@@ -111,7 +111,7 @@ define([
                             $.each(banner, function(index, el) {
                                 var obj = {};
                                 obj.imageSrc = el.image;
-                                obj.link =el.link; 
+                                obj.link ="patoa://pingan.com/discount/detail?url=" + encodeURIComponent(el.link); 
                                 obj.imageWords = el.imageWords;
                                 obj.point = JSON.stringify({"eventid":"值得买","label":"值得买首页_点击_banner","param":{"banner名称":obj.imageWords}});
                                 ModelData.push(obj);
