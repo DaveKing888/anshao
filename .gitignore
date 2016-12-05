@@ -1,6 +1,6 @@
 
 #项目依赖的NPM包
-node_modules
+#node_modules
 #编译用的.tmp
 .tmp
 #生产的项目文件夹
